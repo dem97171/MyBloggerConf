@@ -1,0 +1,23 @@
+{
+  "name": "mybloggerconf",
+  "version": "1.0.0",
+  "description": "Bloggerのテーマカスタマイズ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dem97171/MyBloggerConf.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dem97171/MyBloggerConf/issues"
+  },
+  "homepage": "https://github.com/dem97171/MyBloggerConf#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-swig": "^0.8.0"
+  }
+}
