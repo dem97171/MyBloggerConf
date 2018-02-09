@@ -6,23 +6,7 @@
     <b:include data='blog' name='all-head-content'/>
     <title><data:blog.pageTitle/></title>
 
-    <b:skin><![CDATA[/*
------------------------------------------------
-Blogger Template Style
-Name:     Awesome Inc.
-Designer: Tina Chen
-URL:      tinachen.org
------------------------------------------------ */
-
-/* Variable definitions
-   ====================
-   {% include "Variable.xhtml" %}
-*/
-
-/* Content
------------------------------------------------ */
-  {% include "baseStyle.scss" %}
-]]></b:skin>
+    {% include "skin/skin.swig" %}
 
     <b:template-skin>
       <b:variable default='960px' name='content.width' type='length' value='1280px'/>
