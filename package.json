@@ -17,6 +17,7 @@
   "homepage": "https://github.com/dem97171/MyBloggerConf#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
+    "gulp-html-escape": "0.0.3",
     "gulp-rename": "^1.2.2",
     "gulp-swig": "^0.8.0"
   }

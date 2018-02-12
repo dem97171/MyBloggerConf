@@ -1005,9 +1005,10 @@ URL:      tinachen.org
   </head>
 
   <body expr:class='&quot;loading&quot; + data:blog.mobileClass'>
-  <b:section class='navbar' id='navbar' maxwidgets='1' name='Navbar' showaddelement='no'>
+    <b:section class='navbar' id='navbar' maxwidgets='1' name='Navbar' showaddelement='no'>
     <b:widget id='Navbar1' locked='true' title='Navbar' type='Navbar'>
-      <b:includable id='main'>&lt;script type=&quot;text/javascript&quot;&gt;
+        <b:includable id='main'>
+            &lt;script type=&quot;text/javascript&quot;&gt;
     function setAttributeOnload(object, attribute, val) {
       if(window.addEventListener) {
         window.addEventListener(&#39;load&#39;,
@@ -1039,9 +1040,9 @@ if (head) {
 head.appendChild(script);
 }})();
 &lt;/script&gt;
-</b:includable>
+        </b:includable>
     </b:widget>
-  </b:section>
+</b:section>
 
   <b:if cond='data:blog.pageType == &quot;index&quot;'>
     <div itemscope='itemscope' itemtype='http://schema.org/Blog' style='display: none;'>
